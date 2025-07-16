@@ -3,7 +3,17 @@
   --gray-700: hsl(0, 0%, 20%);
   --gray-800: hsl(0, 0%, 12%);
   --gray-900: hsl(0, 0%, 8%);
-  --paragraph-size: 14px;
+  --spacing-500: 2.5rem;
+  --spacing-300: 1.5rem;
+  --spacing-200: 1rem;
+  --spacing-150: 0.75rem;
+  --spacing-100: 0.5rem;
+  --spacing-50: 0.25rem;
+  --text-large: 1.5rem;
+  --text-regular: 0.875rem;
+  --fontweight-bold: 700;
+  --fontweight-semibold: 600;
+  --fontweight-regular: 400;
 }
 
 *,
@@ -12,4 +22,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  line-height: 1.5;
+  font-weight: var(--fontweight-regular);
+  font-size: var(--text-regular);
+  font-family: "Inter", sans-serif;
 }
