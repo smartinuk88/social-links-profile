@@ -45,7 +45,7 @@ body {
   align-items: center;
   gap: var(--spacing-300);
   background: var(--gray-800);
-  padding: var(--spacing-300);
+  padding: clamp(var(--spacing-300), 1.502vw + 1.148rem, var(--spacing-500));
   border-radius: 12px;
 }
 
