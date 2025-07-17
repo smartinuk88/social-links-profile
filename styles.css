@@ -56,7 +56,7 @@ body {
 }
 
 .social-profile-details {
-  font-weight: var(--fontweight-bold);
+  font-weight: var(--fontweight-semibold);
 }
 
 .social-profile__name {
