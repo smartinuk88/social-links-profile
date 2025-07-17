@@ -55,15 +55,17 @@ body {
   border-radius: 50%;
 }
 
+.social-profile-details {
+  font-weight: var(--fontweight-semibold);
+}
+
 .social-profile__name {
   font-size: var(--text-large);
-  font-weight: var(--fontweight-semibold);
   margin-bottom: var(--spacing-50);
 }
 
 .social-profile__location {
   color: var(--green);
-  font-weight: var(--fontweight-bold);
 }
 
 .social-profile__links {
